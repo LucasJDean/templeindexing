@@ -25,7 +25,7 @@ export default function Home() {
               href="src\pages\posts\first-post"
               target="_blank"
             >
-              <h3 className="text-2xl font-bold">First Steps →</h3>
+              <h3 className="text-2xl font-bold">AnotherPage →</h3>
               <div className="text-lg">
                 Landing Page.
               </div>
