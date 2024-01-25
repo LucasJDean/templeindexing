@@ -4,7 +4,7 @@ import Link from "next/link";
 import { api } from "~/utils/api";
 
 export default function Home() {
-  const hello = api.post.hello.useQuery({ text: "made Fun" });
+  const hello = api.post.hello.useQuery({ text: "World." });
 
   return (
     <>
@@ -37,6 +37,16 @@ export default function Home() {
               <h3 className="text-2xl font-bold">Search For Things →</h3>
               <div className="text-lg">
                 Search through out database.
+              </div>
+            </Link>
+            <Link
+              className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
+              href="/posts/lucas-post"
+              target="_blank"
+            >
+              <h3 className="text-2xl font-bold">Lucas Page →</h3>
+              <div className="text-lg">
+                This guy actually showed up to class.
               </div>
             </Link>
           </div>
