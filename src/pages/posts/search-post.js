@@ -14,7 +14,7 @@ export default function SearchPost() {
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#0000FF] to-[#Ffff00]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
         </div>
-        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
+        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem] px-1 py10">
             Search <span className="text-blue">The</span> Database
           </h1>
         <Link
