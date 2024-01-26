@@ -46,7 +46,7 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold">Lucas Page →</h3>
               <div className="text-lg">
-                This guy actually showed up to class.
+                This guy is cool.
               </div>
             </Link>
           </div>
