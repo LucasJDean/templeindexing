@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import { api } from "~/utils/api";
 
 
 export default function SearchPost() {
@@ -13,7 +14,6 @@ export default function SearchPost() {
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#0000FF] to-[#Ffff00]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
         </div>
-        </main>
         <h1>Search DataBase</h1> 
         <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
@@ -25,6 +25,8 @@ export default function SearchPost() {
                 Go Back.
               </div>
             </Link>
+        </main>
+        
       </>
     );
   }
