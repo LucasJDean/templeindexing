@@ -17,6 +17,7 @@ export default function SearchPost() {
         <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem] px-1 py10">
             Search <span className="text-blue">The</span> Database
           </h1>
+          <input type="text" placeholder="Type to get started" className="input input-bordered w-full max-w-xs" />
         <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
               href="/"
