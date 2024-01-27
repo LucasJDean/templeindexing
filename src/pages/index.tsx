@@ -61,7 +61,7 @@ export default function Home() {
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
           </div>
-          <div className="artboard artboard-horizontal phone-3 bg-gray">736×414</div>
+          <div className="artboard artboard-horizontal phone-3 bg-gray">Crowdsourcing involves obtaining work, information, or opinions from a large group of people who submit their data via the Internet, social media, and smartphone apps. But in our temple we want you to have as much fun as you can while you do this dreadful task!</div>
           <p className="text-2xl text-black">
             {hello.data ? hello.data.greeting : "Loading..."}
           </p>
