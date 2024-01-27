@@ -33,7 +33,7 @@ export default function InfoPost() {
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
-                <img src="/terry_av.jpg" alt="Avatar Tailwind CSS" />
+                <img src="/logo.png" alt="Avatar Tailwind CSS" />
               </div>
             </div>
             <div>
@@ -58,7 +58,7 @@ export default function InfoPost() {
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
-                <img src="/fred_av.jpg" alt="Avatar Tailwind CSS" />
+                <img src="/logo.png" alt="Avatar Tailwind CSS" />
               </div>
             </div>
             <div>
