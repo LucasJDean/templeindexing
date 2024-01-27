@@ -9,7 +9,7 @@ export default function InfoPost() {
       <title>Community Page</title>
       <link rel="icon" href="/logo.ico" />
     </Head>
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#0000FF] to-[#Ffff00]">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#505250] to-[#CBD3C1]">
       <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
       </div>
       <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem] px-1 py10">
@@ -33,7 +33,7 @@ export default function InfoPost() {
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
-                <img src="/logo.png" alt="Avatar Tailwind CSS" />
+                <img src="/terry_av.png" alt="Avatar Tailwind CSS" />
               </div>
             </div>
             <div>
@@ -58,11 +58,11 @@ export default function InfoPost() {
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
-                <img src="/logo.png" alt="Avatar Tailwind CSS" />
+                <img src="/fred_av.png" alt="Avatar Tailwind CSS" />
               </div>
             </div>
             <div>
-              <div className="font-bold">Vladimir Putin</div>
+              <div className="font-bold">Vladimir Fazbear</div>
               <div className="text-sm opacity-50">Ohio</div>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function InfoPost() {
   </table>
 </div>
       <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
+            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-9 text-white hover:bg-white/20"
             href="/"
             target="_blank"
           >
