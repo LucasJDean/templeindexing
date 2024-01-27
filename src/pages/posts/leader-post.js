@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 
-export default function InfoPost() {
+export default function LeaderPost() {
   return (
     <>
     <Head>
