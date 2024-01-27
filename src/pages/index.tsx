@@ -21,10 +21,10 @@ export default function Home() {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       <Link
-        href="/"
+        href="/posts/search-post.js"
         target="_blank"
       >  
-      <li><a>Homepage</a></li>
+      <li><a>Search</a></li>
       </Link>
       <Link
         href="/posts/leader-post.js"
@@ -38,10 +38,10 @@ export default function Home() {
       <li><a>Info</a></li>
       </Link>
       <Link
-        href="/"
+        href="/posts/lucas-post.js"
         target="_blank"
       >
-      <li><a>Search</a></li>
+      <li><a>Lucas</a></li>
       </Link>
       </ul>
     </div>
