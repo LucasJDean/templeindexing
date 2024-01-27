@@ -61,6 +61,7 @@ export default function Home() {
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
           </div>
+          <div className="artboard artboard-horizontal phone-3">736×414</div>
           <p className="text-2xl text-black">
             {hello.data ? hello.data.greeting : "Loading..."}
           </p>
