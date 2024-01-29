@@ -1,28 +1,21 @@
-# Create T3 App
+# Welcome To The Temple Of Indexing. 
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Crowdsourcing involves obtaining work, information, or opinions from a large group of people who submit their work through the Internet, social media, and phone.
+Now you might be wondering, "Hasnt this already been done before?". You'd be right but its very outdated and barren. 
 
-## What's next? How do I make an app with this?
+(https://csindexing.com/) **2006**
+![alt text](oldcsi.png)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## We're Making It **Fun** Again
+We want to encourage YOU to migrate to a simpler take on **CSI**. It has the same concept has before but with a small adjustment. Instead of just posting random findings you'd be engaging in various events and games.
+There will be **leaderboards**, **seasonal events**, and **award events**. Hopefully, this will make Csi more apealing to a broader audience. There will also be additional features like **profile management**, **chatbots**, **in app messsaging**, and **discord intergration**.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+(our ss's of temple indexing.)
 
-## Learn More
+### Where Can I Sign Up?
+Start your next post with us! (website link)
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### Learn More
+(link)
+(link)
