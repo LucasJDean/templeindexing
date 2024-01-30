@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="description" content="Making crowd source indexing fun!" />
         <link rel="icon" href="/logo.ico" />
       </Head>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-stone-950">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -61,7 +61,6 @@ export default function Home() {
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
           </div>
-          <div className="artboard artboard-horizontal phone-3 bg-gray">Crowdsourcing involves obtaining work, information, or opinions from a large group of people who submit their data via the Internet, social media, and smartphone apps. But in our temple we want you to have as much fun as you can while you do this dreadful task!</div>
           <p className="text-2xl text-black">
             {hello.data ? hello.data.greeting : "Loading..."}
           </p>
