@@ -50,7 +50,7 @@ export default function Home() {
   href="/"
   target="_blank">
   <div className="navbar-center">
-    <a className="btn btn-ghost text-xl">The Temple Of Indexing</a>
+    <a className="btn btn-ghost text-xl text-white">The Temple Of Indexing</a>
   </div>
   </Link>
 </div>
@@ -61,6 +61,10 @@ export default function Home() {
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
           </div>
+          <h3 className="text-2xl font-bold">About →</h3>
+              <div className="text-lg">
+                Learn more about how this all started.
+              </div>
           <p className="text-2xl text-black">
             {hello.data ? hello.data.greeting : "Loading..."}
           </p>
