@@ -21,24 +21,24 @@ export default function Home() {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       <Link
-        href="/posts/search-post.js"
+        href="/posts/search-post"
         target="_blank"
       >  
       <li><a>Search</a></li>
       </Link>
       <Link
-        href="/posts/leader-post.js"
+        href="/posts/leader-post"
       >
       <li><a>Leaderboard</a></li>
       </Link>
       <Link
-        href="/"
+        href="/about-post"
         target="_blank"
       > 
       <li><a>Info</a></li>
       </Link>
       <Link
-        href="/posts/lucas-post.js"
+        href="/posts/lucas-post"
         target="_blank"
       >
       <li><a>Lucas</a></li>
