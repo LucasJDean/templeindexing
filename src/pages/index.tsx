@@ -75,10 +75,10 @@ export default function Home() {
  {/*Password*/}
  <input type="text" placeholder="Password" className="input input-bordered w-full max-w-xs" />
  {/*Button*/}
-<Grid>
+
   <button className="btn glass">Login</button>
   <button className="btn glass">Sign Up</button>
-</Grid>
+
 </div>              
     </>
   );
