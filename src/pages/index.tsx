@@ -61,6 +61,13 @@ export default function Home() {
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
           </div>
+          {/*Email and Username*/}
+          <input type="text" placeholder="Email or Username" className="input input-bordered w-full max-w-xs" />
+          {/*Password*/}
+          <input type="text" placeholder="Password" className="input input-bordered w-full max-w-xs" />
+          {/*Button*/}  
+          <button className="btn glass">Login</button>
+          <button className="btn glass">Sign Up</button>
           <p className="text-2xl text-black">
             {hello.data ? hello.data.greeting : "Loading..."}
           </p>
