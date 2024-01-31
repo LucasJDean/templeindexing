@@ -67,14 +67,16 @@ export default function Home() {
         </div>
       </main>
   {/*Login Stuff*/}      
-  <div>
+  <div className="">
  {/*Email and Username*/}
  <input type="text" placeholder="Email or Username" className="input input-bordered w-full max-w-xs" />
  {/*Password*/}
  <input type="text" placeholder="Password" className="input input-bordered w-full max-w-xs" />
- {/*Button*/}  
- <button className="btn glass">Login</button>
- <button className="btn glass">Sign Up</button>
+ {/*Button*/}
+
+  <button className="btn glass">Login</button>
+  <button className="btn glass">Sign Up</button>
+
 </div>              
     </>
   );
