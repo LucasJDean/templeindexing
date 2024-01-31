@@ -4,6 +4,7 @@ import * as React from "react";
 import { DataGrid } from "@mui/x-data-grid"
 
 import { api } from "~/utils/api";
+import { Grid } from "@mui/material";
 
 export default function Home() {
   const hello = api.post.hello.useQuery({ text: "World." });
@@ -75,10 +76,14 @@ export default function Home() {
  {/*Password*/}
  <input type="text" placeholder="Password" className="input input-bordered w-full max-w-xs" />
  {/*Button*/}
-
-  <button className="btn glass">Login</button>
-  <button className="btn glass">Sign Up</button>
-
+<Grid container spacing={2}>
+  <Grid item xs={5}>
+    <button className="btn glass">Login</button>
+  </Grid>
+  <Grid item xs={5}>
+    <button className="btn glass">Sign Up</button>
+  </Grid>
+</Grid>
 </div>              
     </>
   );
