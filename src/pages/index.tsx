@@ -48,7 +48,7 @@ export default function Home() {
       </Link>
       </ul>
     </div>
-   </div>
+  </div>
    <Link
     href="/"
     target="_blank">
@@ -67,7 +67,7 @@ export default function Home() {
         <span className="badge badge-xs badge-primary indicator-item"></span>
       </div>
     </button>
-  </div>
+   </div>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#505250] to-[#CBD3C1]">
         <div className="container flex flex-col items-center justify-center gap-12 px-7 py17 ">
           <h1 className="text-5xl font-extrabold tracking-tight text-gray sm:text-[5rem]">
@@ -90,7 +90,10 @@ export default function Home() {
                 <button className="btn neutral">Sign Up</button>
               </Grid>
             </Grid>
-            </div>    
+            </div>
+              <p className="text-2xl text-black">
+                {hello.data ? hello.data.greeting : "Loading..."}
+              </p>    
           </div>
       </main>
     </>
