@@ -4,7 +4,7 @@ Crowdsourcing involves obtaining work, information, or opinions from a large gro
 Now you might be wondering, "Hasnt this already been done before?". You'd be right but its very outdated and barren. 
 
 (https://csindexing.com/) **2006**
-![alt text](oldcsi.png)
+![alt text](/public/oldcsi.png)
 
 (our ss's of temple indexing.)
 
