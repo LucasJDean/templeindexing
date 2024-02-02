@@ -73,10 +73,10 @@ export default function Home() {
             {/*Button*/}
             <Grid container spacing={2}>
               <Grid item xs={5}>
-                <button className="btn glass">Login</button>
+                <button className="btn neutral">Login</button>
               </Grid>
               <Grid item xs={5}>
-                <button className="btn glass">Sign Up</button>
+                <button className="btn neutral">Sign Up</button>
               </Grid>
               </Grid>
             </div>    
@@ -85,7 +85,6 @@ export default function Home() {
           </p>
         </div>
       </main>
-          
     </>
   );
 }
