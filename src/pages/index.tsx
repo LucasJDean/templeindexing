@@ -48,15 +48,21 @@ export default function Home() {
       </Link>
       </ul>
     </div>
-  </div>
-  <Link
-  href="/"
-  target="_blank">
-  <div className="navbar-center">
+   </div>
+   <Link
+    href="/"
+    target="_blank">
+   <div className="navbar-center">
     <a className="btn btn-ghost text-xl text-white">The Temple Of Indexing</a>
-  </div>
-  </Link>
-</div>
+   </div>
+   </Link>
+   </div>
+   <div className="navbar-end">
+    <button className="btn btn-ghost btn-circle">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+    </button>
+    <button className="btn btn-ghost btn-circle"></button>
+   </div>  
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#505250] to-[#CBD3C1]">
         <div className="container flex flex-col items-center justify-center gap-12 px-7 py17 ">
           <h1 className="text-5xl font-extrabold tracking-tight text-gray sm:text-[5rem]">
@@ -78,12 +84,9 @@ export default function Home() {
               <Grid item xs={5}>
                 <button className="btn neutral">Sign Up</button>
               </Grid>
-              </Grid>
+            </Grid>
             </div>    
-          <p className="text-2xl text-black">
-            {hello.data ? hello.data.greeting : "Loading..."}
-          </p>
-        </div>
+          </div>
       </main>
     </>
   );
