@@ -71,7 +71,7 @@ export default function Home() {
             {/*Password*/}
             <input type="text" placeholder="Password" className="input input-bordered w-full max-w-xs" />
             {/*Button*/}
-            <Grid container spacing={2}>
+            <Grid container spacing={1}>
               <Grid item xs={5}>
                 <button className="btn neutral">Login</button>
               </Grid>
