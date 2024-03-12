@@ -13,7 +13,15 @@ generator client {
 }
 
 model Post {
-  id    String @id @default(dbgenerated()) @map("_id") @db.ObjectId
-  title String
-  body  String
+  id       String @id @default(dbgenerated()) @map("_id") @db.ObjectId
+  title    String
+  body     String
+  author   Author @relation(fields: [authorId], references: [id])
+  authorId String @db.ObjectId
+}
+
+model Author {
+  id   String @id @default(dbgenerated()) @map("_id") @db.ObjectId
+  name String
+  posts Post[]
 }
