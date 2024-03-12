@@ -8,7 +8,7 @@ async function main() {
       title: 'My first post',
       body: 'My first post body'
     }
-  })
+  });
   console.log(post);
 }
 
