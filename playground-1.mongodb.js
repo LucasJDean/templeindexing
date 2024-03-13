@@ -1,6 +1,15 @@
-const database = 'grades';
-const collection = 'testscores';
+import { PrismaClient } from '@prisma/client';
 
-use(database);
+const prisma = new PrismaClient();
 
-db.createCollection(collection);
+async function main() {
+  const post = await prisma.post.create({
+    data: {
+      title: 'My first post',
+      body: 'My first post body'
+    }
+  });
+  console.log(post);
+}
+
+main();
